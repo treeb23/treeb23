@@ -1,5 +1,8 @@
 # TREEB23
 
+> [!NOTE]
+> このページでは全体で100MB程度のgifファイルを読み込みます。各コンテンツにgifファイルがリンクされていますがしばらく表示されないことがあります。
+
 ## <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3VrOWMyNHF0YmEzMm1hMndka3hxejYwNzBraGJpZXc2c2o4cmZqaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/0DbpeTlVnwIkfGbV8o/giphy.gif" width ="22"><b> アーカイブ </b>
 
 ### <a href="https://github.com/treeb23/kineticwall2022">kineticwall2022</a><br>
@@ -10,7 +13,7 @@ Touch Designerを用いてアニメーションをAPIにより取得した情報
 <img src="img/kinetic.gif" alt="Demo">
 
 ### <a href="https://github.com/treeb23/travelphotomap">写真で振り返る 思い出旅行マップ</a><br>
-旅行して写真を撮った思い出を地図に記録するアプリケーションを制作。ユーザーが撮影した写真のEXIF情報をもとに、地図上にその写真の記録を可視化する。写真間の座標差をもとにグループにまとめ、都市や地域ごとに写真を整理します。地図表示にはLeafletを使用し、Flexboxを用いたレイアウト設計により、シンプルで軽量なUIを実現しています。グループをクリックすると、該当グループの平均座標に地図が移動し、グループに属する写真が表示され、写真の下部にはEXIF情報を表示しています。写真をクリックすると、モーダルウィンドウが開き、拡大画像が表示されます。ページをリロードしてもデータが保持されるほか、JSON形式およびCSV形式でデータの書き出し・読み込みを可能にしています。
+旅行して写真を撮った思い出を地図に記録するアプリケーションを制作。ユーザーが撮影した写真のEXIF情報をもとに、地図上にその写真の記録を可視化する。写真間の座標差をもとにグループにまとめ、都市や地域ごとに写真を整理します。地図表示にはLeafletを使用し、Flexboxを用いたレイアウト設計により、シンプルで軽量なUIを実現している。グループをクリックすると、該当グループの平均座標に地図が移動し、グループに属する写真が表示され、写真の下部にはEXIF情報を表示している。写真をクリックすると、モーダルウィンドウが開き、拡大画像が表示される。ページをリロードしてもデータが保持されるほか、JSON形式およびCSV形式でデータの書き出し・読み込みを可能にしている。
 <br>
 <img src="img/photomap.gif" alt="Demo">
 
