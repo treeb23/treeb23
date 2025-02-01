@@ -1,7 +1,7 @@
 # TREEB23
 
 > [!NOTE]
-> このページでは全体で100MB程度のgifファイルを読み込みます。各コンテンツにgifファイルがリンクされていますがしばらく表示されないことがあります。
+> このページでは全体で80MB程度のgifファイルを読み込みます。各コンテンツにgifファイルがリンクされていますがしばらく表示されないことがあります。
 
 ## <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3VrOWMyNHF0YmEzMm1hMndka3hxejYwNzBraGJpZXc2c2o4cmZqaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/0DbpeTlVnwIkfGbV8o/giphy.gif" width ="22"><b> アーカイブ </b>
 
@@ -15,7 +15,7 @@ Touch Designerを用いてアニメーションをAPIにより取得した情報
 ### <a href="https://github.com/treeb23/travelphotomap">写真で振り返る 思い出旅行マップ</a><br>
 旅行して写真を撮った思い出を地図に記録するアプリケーションを制作。ユーザーが撮影した写真のEXIF情報をもとに、地図上にその写真の記録を可視化する。写真間の座標差をもとにグループにまとめ、都市や地域ごとに写真を整理します。地図表示にはLeafletを使用し、Flexboxを用いたレイアウト設計により、シンプルで軽量なUIを実現している。グループをクリックすると、該当グループの平均座標に地図が移動し、グループに属する写真が表示され、写真の下部にはEXIF情報を表示している。写真をクリックすると、モーダルウィンドウが開き、拡大画像が表示される。ページをリロードしてもデータが保持されるほか、JSON形式およびCSV形式でデータの書き出し・読み込みを可能にしている。
 <br>
-<img src="img/photomap.gif" alt="Demo">
+<img src="img/photomap_lite.gif" alt="Demo">
 
 ### <a href="https://github.com/treb23/repo24">高速キータイピングゲーム</a><br>
 2022年6月、マルチメディアに関する授業課題の一環で作成。AWS EC2インスタンスをUbuntuで起動し、サーバ側プログラムとクライアント側プログラムを組み合わせて動作する。HTML,CSS,Javascript,PHPを主に使用し、データベースを操作するプログラムによりランキング機能やスコア統計機能を用意した。
