@@ -12,29 +12,29 @@ Touch Designerを用いてアニメーションをAPIにより取得した情報
 <br>
 <img src="img/kinetic_lite.gif" alt="Demo">
 
-### <a href="https://github.com/treeb23/travelphotomap">写真で振り返る 思い出旅行マップ</a><br>
+### <a href="https://github.com/treeb23/simplewebapps/travelphotomap">写真で振り返る 思い出旅行マップ</a><br>
 旅行して写真を撮った思い出を地図に記録するアプリケーションを制作。ユーザーが撮影した写真のEXIF情報をもとに、地図上にその写真の記録を可視化する。写真間の座標差をもとにグループにまとめ、都市や地域ごとに写真を整理します。地図表示にはLeafletを使用し、Flexboxを用いたレイアウト設計により、シンプルで軽量なUIを実現している。グループをクリックすると、該当グループの平均座標に地図が移動し、グループに属する写真が表示され、写真の下部にはEXIF情報を表示している。写真をクリックすると、モーダルウィンドウが開き、拡大画像が表示される。ページをリロードしてもデータが保持されるほか、JSON形式およびCSV形式でデータの書き出し・読み込みを可能にしている。
 <br>
 <img src="img/photomap_lite.gif" alt="Demo">
 
-### <a href="https://github.com/treeb23/calendarapp">Simple Web Calendar</a><br>
+### <a href="https://github.com/treeb23/simplewebapps/calendarapp">Simple Web Calendar</a><br>
 ブラウザ上で動作するシンプルなカレンダーアプリを作成。予定の追加・編集・削除、メモの管理、CSV形式での書き出しを行える。カレンダーの各日付セルをダブルクリックすることで予定を追加することができ、優先度順や日付順に並び替えるリスト表示や予定の編集、地図をクリックすることによる位置情報の追加、キーワード検索機能や他の予定とのリンク機能など、OS標準カレンダーの機能にはないあると便利な特徴を含んでいる。
 <br>
 <img src="img/simplewebcalendar.gif" alt="Demo">
 
 
-### <a href="https://github.com/treb23/repo24">高速キータイピングゲーム</a><br>
+### <a href="https://github.com/treeb23/repo24">高速キータイピングゲーム</a><br>
 2022年6月、マルチメディアに関する授業課題の一環で作成。AWS EC2インスタンスをUbuntuで起動し、サーバ側プログラムとクライアント側プログラムを組み合わせて動作する。HTML,CSS,Javascript,PHPを主に使用し、データベースを操作するプログラムによりランキング機能やスコア統計機能を用意した。
 タイピングゲームでは難易度に応じて出題内容の文字の種類や長さが変化する。ランダムに問題が生成される。開始するとカーソルが入力欄に自動的にあい、タイマーを開始する。コピー&ペーストを禁止している。
 <br>
 <img src="img/typing_speedrun.gif" alt="Demo">
 
-### <a href="https://github.com/treb23/repo24">discord appでローカルLLM</a><br>
+### <a href="https://github.com/treeb23/repo24">discord appでローカルLLM</a><br>
 2025年1月、Deepseek-r1を4bit量子化した`melt-adzuki/DeepSeek-R1-Distill-Qwen-14B-Japanese-Q4-mlx`をローカル環境で実行できる環境を構築。discord appとして外出中でも常時ローカルLLMの使用が可能。
 <br>
 <img src="img/llm_discordapp.gif" alt="Demo">
 
-### <a href="https://github.com/treb23/repo24">便利ツール</a><br>
+### <a href="https://github.com/treeb23/repo24">便利ツール</a><br>
 webUI構築にgradioを使用した便利ツールを作成。.movや.webmなどの動画ファイルをmp4(h264)に変換する機能、yt-dlpを使用した動画ダウンローダー、リアルタイム文字数カウンター、whisperを用いた文字起こし、バイトの給与計算を行うなど実生活でよく使うツールを作成した。クリップボードからのペースト機能やワンボタンで実行可能なインターフェース構築など実用ツールらしい使いやすさにこだわっている。
 <br>
 <img src="img/tools.gif" alt="Demo">
