@@ -12,12 +12,12 @@ Touch Designerを用いてアニメーションをAPIにより取得した情報
 <br>
 <img src="img/kinetic_lite.gif" alt="Demo">
 
-### <a href="https://github.com/treeb23/simplewebapps/travelphotomap">写真で振り返る 思い出旅行マップ</a><br>
+### <a href="https://github.com/treeb23/simplewebapps/blob/main/travelphotomap">写真で振り返る 思い出旅行マップ</a><br>
 旅行して写真を撮った思い出を地図に記録するアプリケーションを制作。ユーザーが撮影した写真のEXIF情報をもとに、地図上にその写真の記録を可視化する。写真間の座標差をもとにグループにまとめ、都市や地域ごとに写真を整理します。地図表示にはLeafletを使用し、Flexboxを用いたレイアウト設計により、シンプルで軽量なUIを実現している。グループをクリックすると、該当グループの平均座標に地図が移動し、グループに属する写真が表示され、写真の下部にはEXIF情報を表示している。写真をクリックすると、モーダルウィンドウが開き、拡大画像が表示される。ページをリロードしてもデータが保持されるほか、JSON形式およびCSV形式でデータの書き出し・読み込みを可能にしている。
 <br>
 <img src="img/photomap_lite.gif" alt="Demo">
 
-### <a href="https://github.com/treeb23/simplewebapps/calendarapp">Simple Web Calendar</a><br>
+### <a href="https://github.com/treeb23/simplewebapps/blob/main/calendarapp">Simple Web Calendar</a><br>
 ブラウザ上で動作するシンプルなカレンダーアプリを作成。予定の追加・編集・削除、メモの管理、CSV形式での書き出しを行える。カレンダーの各日付セルをダブルクリックすることで予定を追加することができ、優先度順や日付順に並び替えるリスト表示や予定の編集、地図をクリックすることによる位置情報の追加、キーワード検索機能や他の予定とのリンク機能など、OS標準カレンダーの機能にはないあると便利な特徴を含んでいる。
 <br>
 <img src="img/simplewebcalendar.gif" alt="Demo">
